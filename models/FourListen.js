@@ -1,0 +1,97 @@
+const mongoose = require("mongoose");
+const Schema = mongoose.Schema;
+
+// Create Schema
+const ListenSchema = new Schema({
+        handle:{
+            type:String
+        },
+        urlsrc:{
+            type:String
+        },
+        year:{
+            type:String
+        },
+        article:{
+            type:String
+        },
+      Questions:{
+          Q1:{
+              type:Array
+          },
+          Q2:{
+              type:Array
+          },
+          Q3:{
+              type:Array
+          },
+          Q4:{
+              type:Array
+          },
+          Q5:{
+              type:Array
+          },
+          Q6:{
+              type:Array
+          },
+          Q7:{
+              type:Array
+          },
+          Q8:{
+              type:Array
+          },
+          Q9:{
+              type:Array
+          },
+          Q10:{
+              type:Array
+          },
+          Q11:{
+              type:Array
+          },
+          Q12:{
+              type:Array
+          },
+          Q13:{
+              type:Array
+          },
+          Q14:{
+              type:Array
+          },
+          Q15:{
+              type:Array
+          },
+          Q16:{
+              type:Array
+          },
+          Q17:{
+              type:Array
+          },
+          Q18:{
+              type:Array
+          },
+          Q19:{
+              type:Array
+          },
+          Q20:{
+              type:Array
+          },
+          Q21:{
+              type:Array
+          },
+          Q22:{
+              type:Array
+          },
+          Q23:{
+              type:Array
+          },
+          Q24:{
+              type:Array
+          },
+          Q25:{
+              type:Array
+          }
+      }
+})
+
+module.exports = FourListen = mongoose.model("fourlisten",ListenSchema);
